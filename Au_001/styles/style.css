@@ -2,10 +2,13 @@
 {
     margin: 0;
     padding: 0;
+
 }
 
 body
 {
+
+    height: 100vh;
     background-color: black;
     color: #F6F6F6;
     
@@ -16,8 +19,8 @@ body
     color: #CE0812;
 }
 
- a
- {
+a
+{
     background-color: #CE0812 ;
     color: black;
- }
+}
