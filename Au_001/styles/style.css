@@ -49,3 +49,20 @@ body
    font-size: 24; 
    font-family: 'Montserrat',sans-serif;
 }
+.perfil__links
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+.perfil__links__butom
+{
+    background-color: #E50914;
+    color: black;
+    border-radius: 16px;
+    padding: 21.5px 0px;
+}
+.icone__butom
+{
+    
+}
