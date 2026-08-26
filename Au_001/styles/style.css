@@ -20,6 +20,24 @@ body
     
 }
 
+.menu
+{
+    
+    border: black solid;
+    border-radius: 10px;
+    background-color: #E50914;
+    margin: 10px 25px;
+    padding: 10px;
+    
+    
+}
+.menu__conteudo
+{   
+    display: flex;
+    list-style:none;
+    align-items: center;
+}
+
 .titulo-destaque 
 {
     color: #CE0812;
@@ -27,7 +45,7 @@ body
 
 .perfil
 {   
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;  
@@ -35,6 +53,9 @@ body
 .perfil__conteudo
 {
   width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   
 }
 .perfil__conteudo__titulo
@@ -60,9 +81,17 @@ body
     background-color: #E50914;
     color: black;
     border-radius: 16px;
-    padding: 21.5px 0px;
+    padding: 20.5px 22px;
+    margin: 30px 15px;
+    width:280px;
+    height:auto;
+    text-align: center;
+    
 }
 .icone__butom
 {
-    
+    align-items: center;
+    width: 65px;
+    height:auto;
+
 }
