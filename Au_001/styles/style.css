@@ -10,6 +10,10 @@
     padding: 0;
 
 }
+html 
+{
+    scroll-behavior: smooth;
+}
 
 body
 {
@@ -22,10 +26,12 @@ body
 
 .menu
 {
-    
+    position: sticky;
+    top: 10px;
+    z-index: 10;
     border: black solid;
     border-radius: 10px;
-    background-color: #E50914;
+    background-color: #B80710;
     margin: 10px 25px;
     padding: 10px;
     
@@ -35,7 +41,16 @@ body
 {   
     display: flex;
     list-style:none;
-    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    font-size: 36;
+    font-family: 'krona one', sans-serif
+}
+
+.menu__conteudo a
+{
+    color: inherit;
+    text-decoration: none;
 }
 
 .titulo-destaque 
@@ -78,7 +93,7 @@ body
 
 .perfil__links__butom
 {
-    background-color: #E50914;
+    background-color: #B80710;
     color: black;
     border-radius: 16px;
     padding: 20.5px 22px;
