@@ -22,6 +22,8 @@ body
     background-color: black;
     color: #F6F6F6;
     
+    
+    
 }
 
 .menu
@@ -32,7 +34,7 @@ body
     border: black solid;
     border-radius: 10px;
     background-color: #B80710;
-    margin: 10px 25px;
+    margin: 5px 10px;
     padding: 10px;
     
     
@@ -62,14 +64,16 @@ body
 {   
     margin: 10% 15%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;  
+    
 }
 .perfil__conteudo
 {
   width: 615px;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   gap: 40px;
   
 }
@@ -110,3 +114,42 @@ body
     height:auto;
 
 }
+
+.perfil__sobre
+{
+    margin: 300PX;
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    gap: 300px;
+    margin: 300px;
+    
+  
+}
+.perfil__sobre h2
+{
+    
+    font-family: "krona one",sans-serif;
+    font-size: 24px;
+    margin: 15px;
+
+    border-bottom: #B80710 4px solid;
+    border-radius: 6px;
+    margin-bottom: 100px;
+
+    
+}
+
+.perfil__sobre_resumo
+{
+    text-align:justify;
+
+}
+.perfil__sobre__habili ul
+{
+    list-style: none; 
+    
+}
+
