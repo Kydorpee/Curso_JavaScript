@@ -28,13 +28,14 @@ body
 
 .menu
 {
-    position: sticky;
-    top: 10px;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    right: 10px;
     z-index: 10;
     border: black solid;
     border-radius: 10px;
-    background-color: #B80710;
-    margin: 5px 10px;
+    background-color: rgba(184, 7, 16, 0.60);
     padding: 10px;
     
     
@@ -130,14 +131,14 @@ body
 }
 .perfil__sobre h2
 {
-    
+    display: inline-block;
     font-family: "krona one",sans-serif;
     font-size: 24px;
     margin: 15px;
 
     border-bottom: #B80710 4px solid;
     border-radius: 6px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 
     
 }
@@ -150,6 +151,48 @@ body
 .perfil__sobre__habili ul
 {
     list-style: none; 
+}
+
+.perfil__sobre__habili > ul
+{
+    margin-bottom: 80px;
+}
+.perfil__contato a
+{
     
+    color: inherit;
+
+}
+
+.perfil__projeto__butom
+{
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    background-color: #B80710;
+    color: black;
+    font-family: "Krona one", sans-serif;
+    border-radius: 16px;
+    padding: 10.5px 42px;
+    margin: 30px 15px;
+    width:280px;
+    height:auto;
+   text-decoration: none;
+    
+}
+.icon__projeto__butom
+{
+    text-align: center;
+    width: 80px;
+    height:auto;
+
+}
+
+footer
+{
+    font-size: 10px;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+    background-color: rgba(184, 7, 16, 0.60);
 }
 
